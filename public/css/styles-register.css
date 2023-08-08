@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header{
+    background-color: #EAC926;
+    justify-content: center;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+} */
+/* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------- */
+ form{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ebebeb;
+    /* border:solid red; */
+    padding-left: 25px;
+}
+
+
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form div label{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+form div input{
+    border-radius: 5px;
+    border: 1px transparent;
+    padding: 5px 10px;
+}
+.Perfil_user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:50%;
+}
+#tit{
+    margin-bottom: 10px;
+}
+
+.domicilio{
+    padding-bottom: 15px;
+}
+.intereses {
+    display: flex;
+    flex-direction: row;
+}
+.intereses input{
+    margin-right: 10px;
+}
+.foto_user{
+    margin-bottom: 15px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+.enviar:hover{
+    color:  #0022AA;
+}
+/* -----TABLET---- */
+@media(min-width:768px){
+    main{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+    form{
+        display: flex;
+        width:50%;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        background-color: #ebebeb;
+        /* border:solid red; */
+        padding-left: 25px;
+    }
+    .botones{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:1024px){
+    .cajitas{
+        border-radius: 5px;
+        border: 1px transparent;
+        padding: 5px 10px;
+        width: 260px
+    }
+    form label{
+        font-size: 100%;
+    }
+}

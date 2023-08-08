@@ -1,0 +1,17 @@
+@media (min-width: 1024px) {
+    main section article h4{
+        display: none;
+        transition: all 1.5s;
+    }
+    main section article:hover h4{
+        display: inline-block;
+        transform: scale(1.1);
+
+    }
+    .fa-truck {
+        transition: 1s;
+    }
+    .fa-truck:hover{
+        transform: rotate(-90deg);
+    }
+}

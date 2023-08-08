@@ -1,0 +1,75 @@
+main{
+    height: 300px;
+}
+.login{
+    width: 100vw;
+    height: 100%;
+    padding-top: 90px;
+    background-color: #ebebeb;
+    /* border:solid red; */
+}
+
+main form div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form div label{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+form div input{
+    border-radius: 5px;
+    border: 1px transparent;
+    padding: 5px 10px;
+    width: 60%;
+ }  
+#enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media(min-width:768px){
+    
+    main{
+        height: 300px;
+    }
+    .login{
+        width :60%;
+        padding-top: 60px;
+    }
+    .login label{
+        font-size: 20px;
+    }
+    .login input{
+        padding: 10px 15px;
+        width: 65%;
+    }
+    #enviar{
+        padding: 10px 15px;
+    }
+}
+
+
+@media(min-width:1024px){
+    .cajitas{
+        border-radius: 5px;
+        border: 1px transparent;
+        padding: 5px 10px;
+        width: 55%;
+    }
+    form label{
+        font-size: 100%;
+    }
+    /* -------------animaciones------ */
+    #enviar{
+        transition: all 0.5s;
+    }
+    #enviar:hover{
+        background-color: #0022AA;
+        color: white;
+    }
+}
